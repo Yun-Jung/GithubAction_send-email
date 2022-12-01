@@ -20,10 +20,10 @@ jobs:
           commitChange: false
     
       - name: Update gmail_password
-        uses: fjogeleit/yaml-update-action@main
+        uses: fjogeleit/yaml-update-action
         with:
           valueFile: 'test.yml'
-          propertyPath: gmail.[ 'password-hash' ]
+          propertyPath: gmail.['password-hash']
           value: ${{ secrets.GMAIL_PASSWORD }}
           commitChange: false
           

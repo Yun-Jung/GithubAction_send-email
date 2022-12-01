@@ -14,7 +14,7 @@ jobs:
       - name: Update test.yml
         uses: fjogeleit/yaml-update-action@main
         with:
-          valueFile: 'test.yaml'
+          valueFile: 'test.yml'
           propertyPath: 'gmail.username'
           value: ${{ secrets.GMAIL_USERNAME }}
           commitChange: false
@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           script: |
-            docker run --rm -v ${{ github.workspace }}/test.yaml:/root/flare/config-fcre.yml |
+            docker run --rm -v ${{ github.workspace }}/test.yml:/root/flare/config-fcre.yml |
             --env CONFIG_FILE="/root/flare/config-fcre.yml" |
             -it flareforecast/send-email
             

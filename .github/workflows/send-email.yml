@@ -40,7 +40,5 @@ jobs:
         uses: actions/checkout@v3
         with:
           run: |
-            docker run --rm -v ${{ github.workspace }}:/root/flare/config |
-            --env CONFIG_FILE="/root/flare/config/config-fcre.yml" |
-            -it flareforecast/send-email
+            docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/test.yml" -it flareforecast/send-email
             

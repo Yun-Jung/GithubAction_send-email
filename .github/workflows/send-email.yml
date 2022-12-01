@@ -37,7 +37,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       
       - name: Run send-email container
-        uses: actions/checkout@v3
-        with:
-          run: |
-            docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/test.yml" -it flareforecast/send-email
+        run: |
+          docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/test.yml" -it flareforecast/send-email

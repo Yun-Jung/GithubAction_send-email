@@ -23,7 +23,7 @@ jobs:
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: 'test.yml'
-          propertyPath: gmail.['password-hash']
+          propertyPath: .gmail.['password-hash']
           value: ${{ secrets.GMAIL_PASSWORD }}
           commitChange: false
           

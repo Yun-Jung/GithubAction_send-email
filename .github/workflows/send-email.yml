@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 0
           
-      - name: Update test.yaml
+      - name: Update test.yml
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: 'test.yaml'

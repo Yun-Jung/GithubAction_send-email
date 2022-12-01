@@ -1,7 +1,8 @@
 ## Container Settings
 gmail:
-  username: 
-  password: 
+  username:
+  password:
+  from: SCC
 email:
   sender: SCC
   subject: Daily FCR Forecast and Graphs

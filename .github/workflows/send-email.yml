@@ -41,4 +41,3 @@ jobs:
         with:
           run: |
             docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/test.yml" -it flareforecast/send-email
-            

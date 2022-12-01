@@ -26,6 +26,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       
       - name: Run send-email container
+        uses: actions/checkout@v3
         with:
           script: |
             docker run --rm -v ${{ github.workspace }}/test.yaml:/root/flare/config-fcre.yml |

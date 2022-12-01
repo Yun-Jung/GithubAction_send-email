@@ -14,13 +14,9 @@ jobs:
       - name: Update test.yaml
         uses: fjogeleit/yaml-update-action@main
         with:
-          changes: |
-            {
-              "${{ github.workspace }}/test.yml": {
-                "gmail.username": ${{ secrets.GMAIL_USERNAME }},
-                "gmail.password": ${{ secrets.GMAIL_PASSWORD }}
-              }
-            }
+          valueFile: '${{ github.workspace }}/test.yaml'
+          propertyPath: 'gmail.username'
+          value: ${{ secrets.GMAIL_USERNAME }}
           commitChange: false
           
       - name: Cat Updated values.yaml

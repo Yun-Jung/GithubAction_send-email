@@ -14,7 +14,7 @@ jobs:
       - name: Update gmail_username
         uses: fjogeleit/yaml-update-action@main
         with:
-          valueFile: 'test.yml'
+          valueFile: 'config-fcre.yml'
           propertyPath: gmail.username
           value: ${{ secrets.GMAIL_USERNAME }}
           commitChange: false
@@ -22,13 +22,13 @@ jobs:
       - name: Update gmail_password
         uses: fjogeleit/yaml-update-action@main
         with:
-          valueFile: 'test.yml'
+          valueFile: 'config-fcre.yml'
           propertyPath: gmail['password-hash']
           value: ${{ secrets.GMAIL_PASSWORD }}
           commitChange: false
           
-      - name: Cat test.yml
-        run: cat ${{ github.workspace }}/test.yml
+      - name: Cat .yml
+        run: cat ${{ github.workspace }}/config-fcre.yml
       
       - name: Login to Docker Hub
         uses: docker/login-action@v2
@@ -38,4 +38,4 @@ jobs:
       
       - name: Run send-email container
         run: |
-          docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/test.yml" flareforecast/send-email
+          docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/config-fcre.yml" flareforecast/send-email

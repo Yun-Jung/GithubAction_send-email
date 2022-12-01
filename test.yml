@@ -1,0 +1,12 @@
+## Container Settings
+gmail:
+  username:
+  password:
+email:
+  sender: SCC
+  subject: Daily FCR Forecast and Graphs
+  body: "Hello from Jetstream 2!\n\nHere are today's forecast and graphs. Have a wonderful day!\n\nBests,\nSCC and CIBR Team"
+  attachments_web:
+  attachments_local:
+  recipients:
+    - y.ku@ufl.edu

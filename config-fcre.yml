@@ -8,54 +8,33 @@ email:
   subject: Daily FCR Forecast and Graphs
   body: "Hello from Jetstream 2!\n\nHere are today's forecast and graphs. Have a wonderful day!\n\nBests,\nSCC and CIBR Team"
   attachments_web:
-    - prefix: https://s3.flare-forecast.org/analysis/fcre/fcre-
-      infix: date -d '1 day ago' '+%Y-%m-%d'
-      suffix: -fcre_js2_turnover.png
-    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/BVRDataFigures_
-      infix: date -d '0 day ago' '+%Y-%m-%d'
-      suffix: .pdf
-    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/CCRMetDataFigures_
-      infix: date -d '0 day ago' '+%Y-%m-%d'
-      suffix: .pdf
-    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/CCRWaterQualityDataFigures_
-      infix: date -d '0 day ago' '+%Y-%m-%d'
-      suffix: .pdf
-    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/FCRCatwalkDataFigures_
-      infix: date -d '0 day ago' '+%Y-%m-%d'
-      suffix: .pdf
-    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/MetDataFigures_
-      infix: date -d '0 day ago' '+%Y-%m-%d'
-      suffix: .pdf
-    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/WeirDataFigures_
-      infix: date -d '0 day ago' '+%Y-%m-%d'
-      suffix: .pdf
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/bvre-ice-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/bvre-mixing-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/ccre-ice-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/ccre-mixing-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-ice-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-mixing-1
-      infix: 
-      suffix: .png
-     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-temp-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-12-1
-      infix: 
-      suffix: .png
-    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-9-1
-      infix: 
-      suffix: .png
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/bvre-ice-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/bvre-mixing-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/ccre-ice-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/ccre-mixing-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-ice-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-mixing-1.png
+      infix:
+      suffix:
+     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-temp-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-12-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-9-1.png
+      infix:
+      suffix:
   attachments_local:
   recipients:
     - y.ku@ufl.edu

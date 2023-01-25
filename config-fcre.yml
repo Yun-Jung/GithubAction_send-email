@@ -26,7 +26,7 @@ email:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-mixing-1.png
       infix:
       suffix:
-     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-temp-1.png
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/fcre-temp-1.png
       infix:
       suffix:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-12-1.png

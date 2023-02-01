@@ -38,4 +38,4 @@ jobs:
       
       - name: Run send-email container
         run: |
-          docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="${{ github.workspace }}/config-fcre.yml" flareforecast/send-email
+          docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/config-fcre.yml" flareforecast/send-email

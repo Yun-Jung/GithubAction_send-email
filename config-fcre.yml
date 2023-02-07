@@ -36,7 +36,7 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix: bvre-ice-1.png
+    - prefix: ${{ github.workspace }}/bvre-ice-1.png
       infix:
       suffix:
   recipients:

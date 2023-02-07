@@ -36,7 +36,7 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix: '/home/runner/work/GithubAction_send-email/GithubAction_send-email/bvre-ice-1.png'
+    - prefix: home/runner/work/GithubAction_send-email/bvre-ice-1.png
       infix:
       suffix:
   recipients:

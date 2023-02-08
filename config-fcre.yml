@@ -36,6 +36,6 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix: *.png
+    - prefix: "*.png"
   recipients:
     - y.ku@ufl.edu

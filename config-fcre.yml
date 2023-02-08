@@ -36,6 +36,5 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix: "/root/flare/config/config-fcre.yml"
   recipients:
     - y.ku@ufl.edu

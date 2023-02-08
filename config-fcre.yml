@@ -5,7 +5,7 @@ gmail:
   from: SCC
 email:
   sender: SCC
-  subject: From GuthubAction
+  subject: From GithubAction
   body: "content"
   attachments_web:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/bvre-ice-1.png
@@ -36,8 +36,8 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix:
-      infix:
+    - prefix: ""
+      infix: ""
       suffix: /root/flare/config/config-fcre.yml
   recipients:
     - y.ku@ufl.edu

@@ -36,6 +36,6 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix: ${{ github.workspace }}/config-fcre.yml
+    - prefix: *
   recipients:
     - y.ku@ufl.edu

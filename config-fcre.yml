@@ -35,6 +35,7 @@ email:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-9-1.png
       infix:
       suffix:
+    - prefix: ls
   attachments_local:
   recipients:
     - y.ku@ufl.edu

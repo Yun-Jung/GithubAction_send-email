@@ -36,8 +36,6 @@ email:
       infix:
       suffix:
   attachments_local:
-    - prefix: /root/flare/config
-      infix: bvre-ice-1
-      suffix: .png
+    - prefix: /root/flare/config/bvre-ice-1.png
   recipients:
     - y.ku@ufl.edu

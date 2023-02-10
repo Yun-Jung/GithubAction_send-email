@@ -23,7 +23,7 @@ jobs:
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: 'config-fcre.yml'
-          propertyPath: gmail['password-hash']
+          propertyPath: gmail.password
           value: ${{ secrets.GMAIL_PASSWORD }}
           commitChange: false
           

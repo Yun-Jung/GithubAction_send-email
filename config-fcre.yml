@@ -5,8 +5,8 @@ gmail:
   from: SCC
 email:
   sender: SCC
-  subject: From GithubAction
-  body: "TEST"
+  subject: Daily FCR Forecast and Graphs
+  body: "Hello from Jetstream 2!\n\nHere are today's forecast and graphs. Have a wonderful day!\n\nBests,\nSCC and CIBR Team"
   attachments_web:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/bvre-ice-1.png
       infix:

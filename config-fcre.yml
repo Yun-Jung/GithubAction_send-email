@@ -35,6 +35,15 @@ email:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-9-1.png
       infix:
       suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/sunp_files/figure-html/sunp-ice-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/sunp_files/figure-html/sunp-mixing-1.png
+      infix:
+      suffix:
+    - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/sunp_files/figure-html/sunp-temp-1.png
+      infix:
+      suffix:
   attachments_local:
   recipients:
     - y.ku@ufl.edu

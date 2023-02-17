@@ -35,8 +35,24 @@ email:
     - prefix: https://github.com/FLARE-forecast/flare-dashboard/raw/main/docs/fcre_files/figure-html/unnamed-chunk-9-1.png
       infix:
       suffix:
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/BVRDataFigures_
+      infix: date -d '0 day ago' '+%Y-%m-%d'
+      suffix: .pdf
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/CCRMetDataFigures_
+      infix: date -d '0 day ago' '+%Y-%m-%d'
+      suffix: .pdf
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/CCRWaterQualityDataFigures_
+      infix: date -d '0 day ago' '+%Y-%m-%d'
+      suffix: .pdf
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/FCRCatwalkDataFigures_
+      infix: date -d '0 day ago' '+%Y-%m-%d'
+      suffix: .pdf
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/MetDataFigures_
+      infix: date -d '0 day ago' '+%Y-%m-%d'
+      suffix: .pdf
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/WeirDataFigures_
+      infix: date -d '0 day ago' '+%Y-%m-%d'
+      suffix: .pdf
   attachments_local:
   recipients:
     - y.ku@ufl.edu
-    - vdaneshmand@acis.ufl.edu
-    - renato@ece.ufl.edu

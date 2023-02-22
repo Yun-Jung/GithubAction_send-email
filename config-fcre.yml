@@ -36,22 +36,22 @@ email:
       infix:
       suffix:
     - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/BVRDataFigures_
-      infix: date -d '1 day ago' '+%Y-%m-%d'
+      infix: date -d '0 day ago' '+%Y-%m-%d'
       suffix: .pdf
     - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/CCRMetDataFigures_
-      infix: date -d '1 day ago' '+%Y-%m-%d'
+      infix: date -d '0 day ago' '+%Y-%m-%d'
       suffix: .pdf
     - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/CCRWaterQualityDataFigures_
-      infix: date -d '1 day ago' '+%Y-%m-%d'
+      infix: date -d '0 day ago' '+%Y-%m-%d'
       suffix: .pdf
     - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/FCRCatwalkDataFigures_
-      infix: date -d '1 day ago' '+%Y-%m-%d'
+      infix: date -d '0 day ago' '+%Y-%m-%d'
       suffix: .pdf
     - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/MetDataFigures_
-      infix: date -d '1 day ago' '+%Y-%m-%d'
+      infix: date -d '0 day ago' '+%Y-%m-%d'
       suffix: .pdf
     - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/WeirDataFigures_
-      infix: date -d '1 day ago' '+%Y-%m-%d'
+      infix: date -d '0 day ago' '+%Y-%m-%d'
       suffix: .pdf
   attachments_local:
   recipients:

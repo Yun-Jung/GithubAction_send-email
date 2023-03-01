@@ -36,7 +36,7 @@ email:
 ```
 
 > "Subject" variable is used to be email subject.
-> "Body" variable will be shown as the content inside email.
+> "Body" variable will be shown as the content inside the email.
 
 
 ```yaml=10
@@ -45,7 +45,7 @@ attachments_web:
       infix:
       suffix:
 ```
-> "attachments_web" variable is used to attach files from web.
+> "attachments_web" variable is used to attach files from the web.
 > 'Prefix', 'infix', and 'suffix' can be blank.
 
 ```yaml=56
@@ -54,14 +54,14 @@ attachments_local:
       infix:
       suffix:
 ```
-> "attachments_local" variable is used to attach file from local inside container.
+> "attachments_local" variable is used to attach files from local directories inside the container.
 > 'Prefix', 'infix', and 'suffix' can be blank.
 
 ```yaml=57
 recipients:
     - 
 ```
-> "recipients" variable is used to fill with receivers' email address.
+> "recipients" variable is used to fill in receivers' email address.
 
 ### Steps in Github Actions
 1. Put gmail account name and password from secrets into yaml files

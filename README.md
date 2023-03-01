@@ -66,7 +66,7 @@ recipients:
 ### Steps in Github Actions
 1. Put gmail account name and password from secrets into yaml files
 ```yaml=14
-- name: Update gmail_username
+      - name: Update gmail_username
         uses: fjogeleit/yaml-update-action@main
         with:
           valueFile: 'config-fcre.yml'
@@ -85,7 +85,7 @@ recipients:
 ```
 2. Log into Dockerhub by using credentials set up in secrets
 ```yaml=33
-- name: Login to Docker Hub
+      - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
@@ -94,7 +94,7 @@ recipients:
 ```
 3. Run send-email container by using 'docker run'
 ```yaml=39
-- name: Run send-email container
+      - name: Run send-email container
         run: |
           docker run --rm -v ${{ github.workspace }}:/root/flare/config --env CONFIG_FILE="/root/flare/config/config-fcre.yml" yjungku/send-email:dev
 

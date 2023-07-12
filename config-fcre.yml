@@ -8,6 +8,9 @@ email:
   subject: Daily FCR Forecast and Graphs
   body: "Hello from GitHub Actions!\n\nHere are today's forecast and graphs. \n\nhttps://flare-forecast.org/flare-dashboard/fcre.html\n\nHave a wonderful day!\n\nBests,\nSCC and CIBR Team"
   attachments_web:
+    - prefix: https://github.com/FLARE-forecast/FCRE-data/raw/wvwa-graphs/BVRDataFigures_2023-07-12.pdf
+      infix:
+      suffix:
   attachments_local:
   recipients:
     - y.ku@ufl.edu
